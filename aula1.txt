@@ -58,9 +58,13 @@ Post do google http://www.vidageek.net/2009/07/20/como-exibir-branch-atual-do-gi
 //Para comitar todos arquivos modificados
 git commit -am "Inserido mais comandos"
 
+
 //Para sincronizar a base
 git rebase master
 git add aula1.txt
+
+//Apresentar os arquivos que estão no repositorio
+$git ls-files
 
 
 
