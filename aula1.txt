@@ -1,0 +1,25 @@
+/**
+Aula 1
+//Controle de Versão
+//Lock
+ClearCase
+SourceSafe
+CVS
+
+//Merge
+Starteam
+SVN
+
+//Distribuido
+Hg - Mercurial
+Git --> Comunica com outras ferramentas de controle de versão
+Bazaar
+*/
+
+comando do git
+git init -- inicia o git configurando o repositorio inicial
+git status -- situacao do git
+git add -- adiciona o arquivo
+git commit -m ¨comentario do commit"
+git config --global user.name ¨Arthur"
+git config --global user.email "agcneto@email.com"
