@@ -16,10 +16,29 @@ Git --> Comunica com outras ferramentas de controle de versão
 Bazaar
 */
 
-comando do git
+//Servidores de git
+github
+bitbucket
+sourceforge
+
+//comando do git
 git init -- inicia o git configurando o repositorio inicial
 git status -- situacao do git
 git add -- adiciona o arquivo
-git commit -m ¨comentario do commit"
+git commit -m "comentario do commit"
 git config --global user.name ¨Arthur"
 git config --global user.email "agcneto@email.com"
+git log -p
+git reset <nome do arquivo>
+git remote add origin https://github.com/agcn84/pm-87-anotacoes.git --Adicionando no repositorio remoto.
+
+Chave de privada e chave privada
+
+ssh-keygen -t rsa
+// pode ser utilizado a dsa
+gedit ~/.ssh/id_rsa.pub --> gerando a chave publica
+git push -u origin master --> Enviar para o servidor
+
+
+
+
